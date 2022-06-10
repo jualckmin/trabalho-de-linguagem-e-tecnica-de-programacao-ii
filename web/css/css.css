@@ -1,0 +1,85 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 05/04/2022, 15:53:42
+    Author     : aluno
+*/
+
+body{
+    background-color:#D8D5DB;
+    font-family: sans-serif;
+}
+.form{
+    width: 400px;
+    margin: auto;
+    padding-top: 40px;
+    
+}
+.carrinho{
+    margin: auto;
+    padding-top: 10px;
+}
+.formItem{
+    width: 600px;
+    padding-top: 20px;
+}
+
+.card-top{
+    text-align: center;   
+}
+.card-group{
+    margin-bottom: 10px;
+}
+.card-group > label{
+    width: 100%;
+    color: rgb(75,75,75);
+    display: block;
+}
+.card-group > input{
+    border-radius: 5px;
+    outline: 0;
+    width: 100%;
+    height: 20px;
+    padding: 3px;
+    
+}
+.card-group > button{
+    color: white;
+    margin-bottom: 10px;
+    background-color: #2D3142;
+    width: 100%;
+    border-radius: 30px;
+    padding: 10px;
+    border: 0px;
+}
+.btn button:hover{
+    background-color: #ADACB5;
+}
+.href{
+    color: white;
+}
+
+.item{
+    margin-bottom: 15px;
+}
+.item > label{
+    width: 100%;
+    color: black;
+}
+.item > button{
+    margin-bottom: 10px;
+    background-color: #38b522;
+    width: 150px;
+    border-radius: 20px;
+    padding: 10px;
+    border: 0px;
+    color: white;
+}
+.item > input{
+    outline: 0;
+}
+.btnI button:hover{
+    background-color: #FFDAB9;
+}

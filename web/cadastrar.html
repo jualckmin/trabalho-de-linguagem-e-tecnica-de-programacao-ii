@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Cadastrar</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/css.css">
+    </head>
+    <body>
+
+        <form class="form" action="Controlador" method="post">
+            <div class="card">
+                <div class="card-top">
+                    <h1>Cadastrar</h1>
+                </div>                
+                <div class="card-group">
+                    <label>Nome</label> 
+                    <input type="text" name="txtNome" placeholder="Preencha este campo com seu nome" required><br/>
+                </div>
+
+                <div class="card-group">
+                    <label>Login</label>
+                    <input type="text" name="txtLogin" placeholder="Preencha este campo com o login desejado" required><br/>
+                </div>
+
+                <div class="card-group">
+                    <label>Senha</label> 
+                    <input type="password" name="txtSenha" placeholder="Preencha este campo com a senha desejada" required><br>
+                </div>
+
+                <div class="card-group btn">
+                    <button type="submit" name="b1" value="Cadastrar">Cadastrar</button>
+                </div>
+            </div>
+
+        </form>
+    </body>
+</html>
